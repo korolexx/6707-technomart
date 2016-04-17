@@ -2,11 +2,245 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>Техномарт</title>
   </head>
   <body>
+    <header class="main-header">
+      <div class="container">
+        <section class="top-header">
+          <div class="logo">Техномарт</div>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+
+          <div class="search-field">
+            <form action="#" method="get">
+              <label for="search">Поиск:</label>
+              <input type="text" id="search">
+            </form>
+          </div>
+
+          <!-- Вот тут непонятно как отправить поисковый запрос, хватит ли такой конструкции ? А сам поиск будет отлавливать JS ?-->
+
+
+        <div class="bookmarks">
+          <a href="#">Закладки: 0</a>
+        </div>
+        <div class="basket">
+          <a href="#">Корзина: 0</a>
+        </div>
+        <div class="checkout">
+          <a href="#">Оформить заказ</a>
+        </div>
+        </section>
+        <section class="center-header">
+          <h1>
+            Интернет-магазин строительных материалов и инструментов для ремонта
+          </h1>
+          <div class="contacts-header">
+            <p class="telephone">
+              +7 (812) 555-05-55
+            </p>
+            <p class="address">
+              г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
+            </p>
+          </div>
+          <div class="user-block">
+            <div class="enter">
+              <a href="#">Войти</a>
+            </div>
+            <div class="registration">
+              <a href="#">Регистрация</a>
+            </div>
+          </div>
+        </section>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Компания</a>
+            </li>
+            <li>
+              <a href="#">Каталог</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#"> Спецпредложения</a>
+            </li>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="promo-block">
+        <div class="materials-new">
+          <div class="item-title">Материалы</div>
+          <a href="#" class="item-btn">На любой вкус</a>
+        </div>
+        <div class="instruments">
+          <div class="item-title">Инструменты</div>
+          <a href="#" class="item-btn">На все случаи</a>
+        </div>
+        <div class="equipment">
+          <div class="item-title">Техника</div>
+          <a href="#" class="item-btn">Для стройки</a>
+        </div>
+        <div class="slider">
+        <!--Пока непонятно как разметить слайдер-->
+        </div>
+        <div class="discounts">
+          <div class="item-title">Скидки 50%</div>
+          <a href="#" class="item-btn">На 350 товаров</a>
+        </div>
+        <div class="delivery">
+          <div class="item-title">Доставка</div>
+          <a href="#" class="item-btn">Бесплатно</a>
+        </div>
+      </div>
+
+      <div class="goods">
+        <div class="popular-goods">
+          Популярные товары:
+          <a href="№" class="btn">Все популярные товары</a>
+        </div>
+        <div class="list-item">
+          <div class="item">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Bosch">
+            <p>Перфоратор BOSCH BFG 9000</p>
+            <div class="old value">32 500 р.</div>
+            <div class="value">
+              <a href="#" class="buy-btn">25 500 р.</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Bosch">
+            <p>Перфоратор BOSCH BFG 3000</p>
+            <div class="old value">22 500 р.</div>
+            <div class="value">
+              <a href="#" class="buy-btn">15 500 р.</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Bosch">
+            <p>Перфоратор BOSCH BFG 6000</p>
+            <div class="old value">30 500 р.</div>
+            <div class="value">
+              <a href="#" class="buy-btn">25 500 р.</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Bosch">
+            <p>Перфоратор BOSCH BFG 2000</p>
+            <div class="value">
+              <a href="#" class="buy-btn">12 500 р.</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="brands">
+        <div class="popular-brands">
+          Популярные производители:
+          <a href="№" class="btn">Все производители</a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Bosch">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Makita">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="DeWaLT">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Интерскол">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Hitachi">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="LG">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="AEG">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="#">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="Metabo">
+          </a>
+        </div>
+
+      </div>
+      <div class="servises">
+        <div class="servises-promo">
+          <p class="promo-title">Сервисы</p>
+          <p class="promo-text">
+            Хороший интернет-магазин отличаеться от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+          </p>
+        </div>
+        <div class="servises-slider">
+          <!--Тут будет слайдер-->
+        </div>
+      </div>
+      <div class="info">
+        <div class="company">
+          <p class="promo-title">Компания Техномарт</p>
+          <p class="promo-text">
+            Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.<br>
+            Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+            Техномарт работает со многими транспортными компаниями:
+          </p>
+          <p class="list-company">
+            Деловые линии<br>
+            Автотрейдинг<br>
+            ЖелДорЭкспедиция<br>
+          </p>
+          <a href="#" class="btn">Подробнее о компании</a>
+        </div>
+        <div class="contacts">
+          <p class="promo-title">Контакты</p>
+          <p class="promo-text">
+            Вы можете забрать товар сами, заехав в наш офис:
+          </p>
+          <a href="#" class="map">
+            <img src="http://placehold.it/150x150" width="150" height="150" alt="map">
+          </a>
+          <a href="#" class="btn">Заблудились? Напишите нам!</a>
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+    </main>
+
+
 
   </body>
 </html>
